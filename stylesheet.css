@@ -509,6 +509,33 @@ input::placeholder {
   cursor: pointer;
 }
 
+.s4 {
+  background-image: url('assets/add-member.png');
+}
+
+.button-border:hover .s4{
+  background-image: url('assets/add-member white.png');
+  cursor: pointer;
+}
+
+.s5 {
+  background-image: url('assets/calender-gray.png');
+}
+
+.button-border:hover .s5{
+  background-image: url('assets/calender-white.png');
+  cursor: pointer;
+}
+
+.s6 {
+  background-image: url('assets/box-button-gray.png');
+}
+
+.button-border:hover .s6{
+  background-image: url('assets/box-button-white.png');
+  cursor: pointer;
+}
+
 
 
 /**********************************************
@@ -1213,7 +1240,7 @@ input::placeholder {
 
 .social-box {
   height: 50px;
-  width: 90%;
+  width: 100%;
   border-radius: 5px;
   display: flex;
   align-items: center;
@@ -1261,20 +1288,82 @@ input::placeholder {
 
 .link-to-job-container  {
   width: 100%;
-  height: 180px;
-  background: green;
+  /*height: 180px;*/
+  /*background: green;*/
 }
 
 .button-widget-container  {
   width: 100%;
-  height: 180px;
-  background: purple;
+  /*height: 180px;
+  background: purple;*/
 }
 
 .upload-resumes-container  {
   width: 100%;
-  height: 180px;
-  background: red;
+  /*height: 180px;
+  background: red;*/
+}
+
+.input-title  {
+  font-size: 20px;
+  color: #717c98;
+  font-weight: bold;
+  margin: 0 0 0 0;
+}
+
+.input-icon {
+  width: 15px;
+  height: 15px;
+  margin: 18px 10px 0 0;
+}
+
+.input-text {
+  font-size: 14px;
+  color: #9190a0;
+  margin: 18px 0 0 0;
+}
+
+.input-field  {
+  width: 80%;
+  height: 35px;
+  font-size: 16px;
+  color: #9190a0;
+  background: #FFF;
+  border: none;
+  margin-top: 16px;
+}
+
+
+  input::placeholder {
+    color: #9190a0;
+    transition: 0.4s
+  }
+
+  .admin-sec-2:hover input::placeholder {
+    color: #16a4fa;
+    transform: scale(1.02);
+  }
+
+.input-button {
+  width: 19%;
+  height: 35px;
+  border: none;
+  background: #3eb4c2;
+  transition: 0.3s;
+  margin: 0 0 0 -4px;
+  /*padding-top: 5px;*/
+  color: #FFF;
+  line-height: 33px;
+}
+
+.input-button:hover{
+  border: solid 1px #FFF;
+  cursor: pointer;
+}
+
+.input-hr {
+  margin: 20px 0 20px 0;
+  width: 100%;
 }
 
 
@@ -1362,7 +1451,7 @@ media query 900
 }
 
 .side-links-container {
-  width: 100%;
+  width: 90%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1450,6 +1539,55 @@ media query 670
 
 .service-nav-sec  {
   height: 130px;
+}
+
+.search-field {
+  font-size: 17px;
+}
+
+.search-icon  {
+  width: 25px;
+  height: 25px;
+}
+
+.add-member {
+  width: 21px;
+  height: 24px;
+}
+
+.calender-button  {
+  width: 18px;
+  height: 20px;
+}
+
+.menu-slider-button {
+  width: 20px;
+  height: 20px;
+}
+
+.admin-sec  {
+  height: 60px;
+}
+
+.admin-sec-2  {
+  height: 60px;
+}
+
+.admin-header {
+  height: 60px;
+}
+
+}
+
+
+/***************************************
+media query min 630
+****************************************/
+
+@media screen and (min-width: 630px) {
+
+.nav-option {
+  display: none;
 }
 
 }
@@ -1612,8 +1750,78 @@ media query 630
     top: -53px;
   }
 
+  .service-sec  {
+    height: 135px;
+  }
+
+  .service-nav-sec  {
+    height: 135px;
+  }
+
 }
 
+/***************************************
+media query min 481
+****************************************/
+
+@media screen and (min-width: 481px) {
+
+.side-button-extra{
+  display: none;
+}
+
+.button-border-extra  {
+  display: none;
+}
+
+}
+
+/***************************************
+media query 500
+****************************************/
+
+@media screen and (max-width: 500px) {
+
+  .job-title  {
+    font-size: 19px;
+    margin: 8px 0 0 10px;
+  }
+
+  .location-icon  {
+    margin: 0 0 0 12px;
+    width: 12px;
+    height: 11px;
+  }
+
+  .preview  {
+    font-size: 11px;
+    margin: 0 0 0 8px;
+  }
+
+  .city {
+    font-size: 12px;
+  }
+
+  .service-nav-sec  {
+    float: none;
+    width: 100%;
+    height: 45px;
+  }
+
+  .service-sec  {
+    width: 100%;
+    height: 64px;
+  }
+
+  .open-button-container  {
+    margin-top: 0px;
+  }
+
+  .search-field {
+    font-size: 12px;
+  }
+
+}
 
 /***************************************
 media query 480
@@ -1624,6 +1832,39 @@ media query 480
   .descirption  {
     top: -74px;
   }
+
+  .admin-right  {
+    display: none;
+  }
+
+  .admin-sec-2  {
+    width: 80%;
+  }
+
+  .admin-sec-1 {
+    width: 20%
+  }
+
+  .search-icon  {
+    margin: 0 12px 0 7px;
+  }
+
+}
+
+
+/***************************************
+media query 430
+****************************************/
+
+@media screen and (max-width: 430px) {
+
+.button-border  {
+  margin: 0 8px 0 0;
+}
+
+.open-button-container  {
+  margin: 0px 6px 0 6px;
+}
 
 }
 
