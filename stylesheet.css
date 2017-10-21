@@ -369,7 +369,6 @@ input::placeholder {
   width: 100%;
   height: 110px;
   display: flex;
-  /*display: inline-block;*/
 }
 
 .service-sec  {
@@ -418,7 +417,6 @@ input::placeholder {
   background: #FFF;
   display: inline-block;
   display: flex;
-  /*justify-content: center;*/
   align-items: center;
   float: right;
 }
@@ -465,7 +463,6 @@ input::placeholder {
 
   margin: 6px 0px 0px 6px;
   background: none;
-  /*background-image: url('assets/box-button-gray.png');*/
   background-repeat: round;
   transition: 0.3s
 }
@@ -1054,7 +1051,6 @@ input::placeholder {
 .divider-2  {
   width: 3%;
   height: 60px;
-  /*background: green;*/
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1107,17 +1103,13 @@ input::placeholder {
 .job-desription-container  {
   width: 69%;
   height: auto;
-  background: #edf2f6;
-  /*display: inline-block;*/
 }
 
 .job-description-page {
   width: 90%;
-  /*height: 800px;*/
   background: #FFF;
   margin: auto;
   margin-top: 30px;
-  /*margin-bottom: 20px;*/
 }
 
 .job-description-body {
@@ -1171,8 +1163,6 @@ input::placeholder {
   font-size: 14px;
   color: #717c98;
   font-weight: bold;
-  /*display: inline;*/
-  /*margin-left: 25px*/
 }
 
 .descirption  {
@@ -1189,14 +1179,11 @@ input::placeholder {
 .description-answer  {
   font-size: 14px;
   color: #717c98;
-  /*display: inline;*/
-  /*margin-left: 45px;*/
   margin-top: -12px;
 }
 
 .description-hr {
   width: 90%;
-  /*margin: auto;*/
   margin-top: 25px;
   margin-bottom: 25px;
   margin-left: 25px;
@@ -1224,8 +1211,6 @@ input::placeholder {
 .side-links-container  {
   width: 30%;
   height: auto;
-  /*background: orange;*/
-  /*display: inline-block;*/
   margin-top: 30px;
 }
 
@@ -1233,9 +1218,6 @@ input::placeholder {
 
 .social-links-container  {
   width: 100%;
-  /*height: 180px;*/
-  /*background: yellow;*/
-  /*margin-top: 40px;*/
 }
 
 .social-box {
@@ -1288,20 +1270,14 @@ input::placeholder {
 
 .link-to-job-container  {
   width: 100%;
-  /*height: 180px;*/
-  /*background: green;*/
 }
 
 .button-widget-container  {
   width: 100%;
-  /*height: 180px;
-  background: purple;*/
 }
 
 .upload-resumes-container  {
   width: 100%;
-  /*height: 180px;
-  background: red;*/
 }
 
 .input-title  {
@@ -1334,15 +1310,15 @@ input::placeholder {
 }
 
 
-  input::placeholder {
-    color: #9190a0;
-    transition: 0.4s
-  }
+input::placeholder {
+  color: #9190a0;
+  transition: 0.4s
+}
 
-  .admin-sec-2:hover input::placeholder {
-    color: #16a4fa;
-    transform: scale(1.02);
-  }
+.admin-sec-2:hover input::placeholder {
+  color: #16a4fa;
+  transform: scale(1.02);
+}
 
 .input-button {
   width: 19%;
@@ -1351,7 +1327,6 @@ input::placeholder {
   background: #3eb4c2;
   transition: 0.3s;
   margin: 0 0 0 -4px;
-  /*padding-top: 5px;*/
   color: #FFF;
   line-height: 33px;
 }
@@ -1373,16 +1348,16 @@ media query 1130
 
 @media screen and (max-width: 1130px) {
 
-.circle-graph-sec {
-  display: block;
-  width: auto;
-}
+  .circle-graph-sec {
+    display: block;
+    width: auto;
+  }
 
-.bar-graph-sec  {
-  display: block;
-  float: none;
-  width: auto;
-}
+  .bar-graph-sec  {
+    display: block;
+    float: none;
+    width: auto;
+  }
 
 }
 
@@ -1393,42 +1368,42 @@ media query 1025
 
 @media screen and (max-width: 1025px) {
 
-.side-button  {
-  width: 18px;
-  height: 18px;
-  margin: 5px 0 0 5px;
-}
+  .side-button  {
+    width: 18px;
+    height: 18px;
+    margin: 5px 0 0 5px;
+  }
 
-.button-border  {
-  width: 30px;
-  height: 30px;
-}
+  .button-border  {
+    width: 30px;
+    height: 30px;
+  }
 
-.open-button  {
-  font-size: 12px;
-}
+  .open-button  {
+    font-size: 12px;
+  }
 
-.green-dot  {
-  width: 12px;
-  height: 12px;
-}
+  .green-dot  {
+    width: 12px;
+    height: 12px;
+  }
 
-.open-button-container  {
-  width: 80px;
-  height: 30px;
-}
+  .open-button-container  {
+    width: 80px;
+    height: 30px;
+  }
 
-.job-title  {
-  font-size: 35px;
-}
+  .job-title  {
+    font-size: 35px;
+  }
 
-.social-icon  {
-  left: -20%
-}
+  .social-icon  {
+    left: -20%
+  }
 
-.twitter-icon {
-  left: -22%
-}
+  .twitter-icon {
+    left: -22%
+  }
 
 }
 
@@ -1439,51 +1414,47 @@ media query 900
 
 @media screen and (max-width: 900px) {
 
-.lower-body-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
+  .lower-body-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
 
-.job-desription-container {
-  width: 100%;
-}
+  .job-desription-container {
+    width: 100%;
+  }
 
-.side-links-container {
-  width: 90%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
+  .side-links-container {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
 
-.job-description-body {
-  margin-bottom: 12px;
-}
+  .job-description-body {
+    margin-bottom: 12px;
+  }
 
-.social-links-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
+  .social-links-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
 
-.divider-2  {
-  width: 9%;
-}
+  .divider-2  {
+    width: 9%;
+  }
 
-.nav-title  {
-  font-size: 12px;
-color: #d0d1d5;
-margin: 0 0 0 3%;
-display: inline;
-line-height: 55px;
-}
-
-
-
-
+  .nav-title  {
+    font-size: 12px;
+  color: #d0d1d5;
+  margin: 0 0 0 3%;
+  display: inline;
+  line-height: 55px;
+  }
 
 }
 
@@ -1512,8 +1483,6 @@ media query 830
     width: 20%;
     align-items: center;
     justify-content: center;
-    /*flex-direction: column;*/
-
   }
 
   .open-button-container  {
@@ -1533,49 +1502,49 @@ media query 670
 
 @media screen and (max-width: 670px) {
 
-.service-sec  {
-  height: 130px;
-}
+  .service-sec  {
+    height: 130px;
+  }
 
-.service-nav-sec  {
-  height: 130px;
-}
+  .service-nav-sec  {
+    height: 130px;
+  }
 
-.search-field {
-  font-size: 17px;
-}
+  .search-field {
+    font-size: 17px;
+  }
 
-.search-icon  {
-  width: 25px;
-  height: 25px;
-}
+  .search-icon  {
+    width: 25px;
+    height: 25px;
+  }
 
-.add-member {
-  width: 21px;
-  height: 24px;
-}
+  .add-member {
+    width: 21px;
+    height: 24px;
+  }
 
-.calender-button  {
-  width: 18px;
-  height: 20px;
-}
+  .calender-button  {
+    width: 18px;
+    height: 20px;
+  }
 
-.menu-slider-button {
-  width: 20px;
-  height: 20px;
-}
+  .menu-slider-button {
+    width: 20px;
+    height: 20px;
+  }
 
-.admin-sec  {
-  height: 60px;
-}
+  .admin-sec  {
+    height: 60px;
+  }
 
-.admin-sec-2  {
-  height: 60px;
-}
+  .admin-sec-2  {
+    height: 60px;
+  }
 
-.admin-header {
-  height: 60px;
-}
+  .admin-header {
+    height: 60px;
+  }
 
 }
 
@@ -1586,9 +1555,9 @@ media query min 630
 
 @media screen and (min-width: 630px) {
 
-.nav-option {
-  display: none;
-}
+  .nav-option {
+    display: none;
+  }
 
 }
 
@@ -1766,13 +1735,13 @@ media query min 481
 
 @media screen and (min-width: 481px) {
 
-.side-button-extra{
-  display: none;
-}
+  .side-button-extra{
+    display: none;
+  }
 
-.button-border-extra  {
-  display: none;
-}
+  .button-border-extra  {
+    display: none;
+  }
 
 }
 
@@ -1823,6 +1792,7 @@ media query 500
 
 }
 
+
 /***************************************
 media query 480
 ****************************************/
@@ -1858,13 +1828,13 @@ media query 430
 
 @media screen and (max-width: 430px) {
 
-.button-border  {
-  margin: 0 8px 0 0;
-}
+  .button-border  {
+    margin: 0 8px 0 0;
+  }
 
-.open-button-container  {
-  margin: 0px 6px 0 6px;
-}
+  .open-button-container  {
+    margin: 0px 6px 0 6px;
+  }
 
 }
 
@@ -1875,13 +1845,13 @@ media query 390
 
 @media screen and (max-width: 390px) {
 
-.description-title  {
-  font-size: 12px;
-}
+  .description-title  {
+    font-size: 12px;
+  }
 
-.description-answer {
-  font-size: 12px;
-}
+  .description-answer {
+    font-size: 12px;
+  }
 
 }
 
