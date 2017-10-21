@@ -19,7 +19,7 @@ Jason Lucas
 
 #### Original Comp
 
-![Sample UI](original comp.png)
+![Sample UI](og-comp.png)
 
 #### Completed Comp
 
